@@ -9,4 +9,6 @@ If you miss a Slick slider feature, don't hesitate to raise an issue or - even b
 
 ## CHANGELOG
 
+2018-09-20 : Added some CSS to complete
+
 2018-09-02 : First release

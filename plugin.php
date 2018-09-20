@@ -47,7 +47,7 @@ class Plugin {
 	 */
 	public function widget_scripts() {
         wp_register_script( 'slick', plugins_url( '/assets/js/slick.min.js', __FILE__ ), [ 'jquery' ], null, true );
-        wp_register_script( 'wide-slick-slider-elementor', plugins_url( '/assets/js/wide-slick-slider-elementor.js', __FILE__ ), [ 'jquery' ], null, true );
+        wp_register_script( 'wide-slick-slider-elementor', plugins_url( '/assets/js/wide-slick-slider-elementor.min.js', __FILE__ ), [ 'jquery' ], null, true );
     }
     
     /**
@@ -55,7 +55,7 @@ class Plugin {
      */
     public function widget_styles() {
         wp_enqueue_style( 'slick', plugins_url( '/assets/css/slick.css', __FILE__ ) );
-        wp_enqueue_style( 'wide-slick-slider-elementor', plugins_url( '/assets/css/wide-slick-slider-elementor.css', __FILE__ ) );
+        wp_enqueue_style( 'wide-slick-slider-elementor', plugins_url( '/assets/css/wide-slick-slider-elementor.min.css', __FILE__ ) );
     }
 
 	/**
